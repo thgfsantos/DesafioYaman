@@ -44,7 +44,7 @@ public class DesafioYamanTest {
 			fail(verificationErrorString);
 		}
 	}
-/*
+
 	@Test
 	public void testSearchAndPrintFiveProductAndPrice() {
 		List<String> listProductPrice = new ArrayList<String>();
@@ -58,7 +58,7 @@ public class DesafioYamanTest {
 			System.out.println(listProductPrice.get(i).toString());
 		}
 	}
-*/
+
 	@Test
 	public void testPrintItemNextPage() {
 		hresult = home.doSearch("motorola g3");// parameter argument for to do search in webpage
